@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <!-- 网页元信息，不会直接显示在页面 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>qigan电子</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            /* 页面背景 */
+            background-color: #f0f4f8;
+            font-family: "Microsoft YaHei", system-ui, sans-serif;
+            /* 垂直+水平居中 */
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        /* 卡片容器 */
+        .card {
+            background-color: #ffffff;
+            border-radius: 16px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+            padding: 48px 36px;
+            text-align: center;
+            max-width: 420px;
+            width: 100%;
+        }
+        h1 {
+            color: #222;
+            font-size: 2.4rem;
+            margin-bottom: 12px;
+        }
+        h2 {
+            color: #3b7ddd;
+            font-size:1.6rem;
+            margin-bottom: 36px;
+        }
+        /* 按钮链接样式 */
+        .btn {
+            display: block;
+            text-decoration: none;
+            background-color:#3b7ddd;
+            color:#fff;
+            padding:14px;
+            border-radius:10px;
+            margin:16px 0;
+            font-size:17px;
+            transition: 0.25s ease;
+        }
+        /* 鼠标悬浮变色 */
+        .btn:hover {
+            background-color:#255cb8;
+            transform: translateY(-2px);
+            box-shadow:0 4px 12px rgba(59,125,221,0.35);
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>作业肝</h1>
+        <h2>qigan电子</h2>
+        <a class="btn" href="https://github.com/liuzhuang-py/CLIcalc/releases" target="_blank">启肝计算器</a>
+        <a class="btn" href="https://github.com/liuzhuang-py/qiganosindos/releases/" target="_blank">qiganos</a>
+    </div>
+</body>
+</html>
